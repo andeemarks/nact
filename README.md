@@ -1,6 +1,13 @@
 # nact
 Code example using the Nact JS framework, as described in the "Actors and Processes" chapter of The Pragmatic Programmer (20th anniversary edition)
 
+## Installation
+
+See [Nact instructions](https://nact.xyz/en_uk/lesson/javascript/getting-started) or...
+
+```
+npm install --save nact
+```
 
 ## Running the code
 
