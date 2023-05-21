@@ -13,6 +13,10 @@ npm install --save nact
 
 ```
 node index.js
+```
+### Sample output
+
+```
 customer1 sees "apple pie slice" appear on the table
 customer2 sees "peach pie slice" appear on the table
 customer1 sees "cherry pie slice" appear on the table
