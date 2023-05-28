@@ -20,6 +20,7 @@ const router = (module, state, msg, context) => {
 };
 
 const start_actor = (actors, name, module, initial_state = {}) => {
+  console.log(`${name} is alive!`);
   return spawn(
     actors,
     (state, msg, context) => {
@@ -82,6 +83,7 @@ const waiterActor = {
 
 const customerActor = {
   "hungry for pie": (msg, ctx, state) => {
+    console.log(`${ctx.self.name} is hungry for some pie!`);
     return dispatch(state.waiter, {
       type: "order",
       customer: ctx.self,
